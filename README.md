@@ -36,3 +36,12 @@ console.log(result);
 Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, 20
 Passed: Yes!
 
+Test: It will replace all numbers including the digit 2 in an array with "Boop!"
+
+Code:
+Words = ["Boop!"];
+Number = 20
+changeNumbers(number,words);
+return result
+console.log(result);
+Output Expected: 0, beep!, boop!, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, boop!
