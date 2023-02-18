@@ -16,10 +16,10 @@ function changeWord(number) {
     let newString = "";
 
     for (let s=0;s<input.length;s++) {
-      if (input.includes("1")) {
-        newString = "beep!";
-      } else if (input.includes("2")) {
-        newString = "boop!"
+      if (input.includes("2")) {
+        newString = "boop!";
+      } else if (input.includes("1")) {
+        newString = "beep!"
       } else {
         newString = input;
       }
