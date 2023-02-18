@@ -8,7 +8,7 @@ changeNumber(number);
 return result
 console.log(result);
 
-Output Expected: 1,2,3,4,5,6,7,8,9,10;
+Output Expected: 0,1,2,3,4,5,6,7,8,9,10;
 Passed?: Yes !
 
 
@@ -22,3 +22,17 @@ Number = 10
 changeNumbers(number,words);
 return result
 console.log(result);
+Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9,10
+Passed: Yes!
+
+Test: It will replace all numbers including the digit 1 in an array with "Beep!"
+
+Code:
+Words = ["Beep!"];
+Number = 20
+changeNumbers(number,words);
+return result
+console.log(result);
+Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, 20
+Passed: Yes!
+
