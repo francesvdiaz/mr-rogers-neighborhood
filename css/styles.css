@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: serif;
+}
+
+#button {
+  background-color: grey;
+  color:rgb(233, 233, 233)
+  transition-duration: 0.4s;
+}
+
+#reverseButton {
+  background-color: grey;
+  color:rgb(233, 233, 233)
+  transition-duration: 0.4s;
+}
+
+#button:hover {
+  background-color: #4CAF50; /* Green */
+  color: rgb(233, 233, 233);
+}
+
+#friendsbutton:hover {
+  background-color: #4CAF50; /* Green */
+  color: rgb(233, 233, 233);
+}

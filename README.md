@@ -55,3 +55,8 @@ changeWord(number,words);
 return result
 console.log(result);
 Output Expected: 0, beep!, boop!, won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, won't you be my neighbor?, beep!, beep!, beep!, beep!, beep!, beep!, boop!
+
+Describe: reverseArray
+Test: It will do the same as countNumbers, but incremement --/reverse instead
+Number = 30
+reverseArray(number)
