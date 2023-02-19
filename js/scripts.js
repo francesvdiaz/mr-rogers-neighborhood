@@ -31,30 +31,20 @@ function changeWord(number) {
     return result;
 };
 
-function reverseArray (number) {
-  number = document.getElementById("input").value;
-  let result = [];
-  
-    for (i=0;i<=number;i--) {
-      result.unshift(i);
-};
-  return results;
-};
 
 function handleFormSubmission (event) {
   event.preventDefault();
   number = document.getElementById("input").value;
   robogerArray = countNumbers(number);
-  let beepArray = changeWord(robogerArray.reverse());
+  let beepArray = changeWord(robogerArray);
   const output = document.createElement("p")
-  const body = document.querySelector("body");
   const div = document.getElementById("output");
   div.append(output);
-  output.innerText = beepArray.join(", ");;
+  output.style.backgroundColor = "#d1c8e8";
+  output.innerText = beepArray.join(", ");
 };
 
 window.addEventListener("load", function() {
-  this.document.getElementById("reverseButton").addEventListener("click",handleFormSubmission);
   document.getElementById("button").addEventListener("click",handleFormSubmission);
 }); 
 

@@ -57,6 +57,13 @@ console.log(result);
 Output Expected: 0, beep!, boop!, won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, won't you be my neighbor?, beep!, beep!, beep!, beep!, beep!, beep!, boop!
 
 Describe: reverseArray
-Test: It will do the same as countNumbers, but incremement --/reverse instead
+Test: It will do the same as countNumbers, but decrease/reverse instead
 Number = 30
 reverseArray(number)
+Number = 30
+let result = [];
+result.unshift(i);
+return results;
+console.log(result);
+Output Expected: won't you be my neighbor?, boop!, boop!, boop!, boop!, boop!, boop!, won't you be my neighbor?, boop!, boop!, boop!, beep!, beep!, beep!, beep!, beep!, beep!, won't you be my neighbor?, boop!, beep!, beep!, 9, 8, 7, 6, 5, 4, won't you be my neighbor?, boop!, beep!, 0
+Passed:YES!
