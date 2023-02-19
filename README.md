@@ -1,69 +1,100 @@
-Describe countNumbers(number)
 
-Test: It will count up to a number"
+# Mr. Roboger's Neighborhood
+#### By *Frances Ojeda-Diaz*
+#### Welcome to Mr. Roboger's Neighboroohd!
 
-Code: 
-number= 10
-changeNumber(number);
-return result
-console.log(result);
+## Technologies Used:
+1. HTML
+2. CSS
+3. Bootstrap
+4. Javascript
 
-Output Expected: 0,1,2,3,4,5,6,7,8,9,10;
-Passed?: Yes !
+## Description:
+This is a program that utilizes arrays and loops to create a page where you can enter a number, and get a displayed array counting up to your desired number back to you. Mr. Roboger's loves to count but often makes mistakes, so there might be some beeps and boops in the array(but thats his function!).
 
 
-Describe changeNumbers(number,words)
+## Setup/Installation Requirements:
+1. Use my repository as a starting point: https://github.com/francesvdiaz/roboger-neighborhood
+2. Click on green 'Code' button
+3. Copy the link for the code
+4. Open your terminal on your computer
+5. Go to your desktop. Do this by entering $ cd ~/desktop
+6. Enter $ git clone https://github.com/francesvdiaz/roboger-neighborhood
+7. Now go to the portfolio directory you just made by entering $ cd portfolio
+8. Now enter $ open .
+9. Click on file in file finder and open in vscode by right clicking it.
+10. Now you're looking at my code!
+11. Open the index.html doc on a web browser.
+12. Look at the page, inspect the code. Give Roboger a number and see what he can do.
 
-Test: It will replace the number 1 in an array with "Beep!"
+## Known Bugs:
+There are currently no known bugs, phew.
 
-Code:
-Words = ["Beep!"];
-Number = 10
-changeWord(number,words);
-return result
-console.log(result);
-Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9,10
-Passed: Yes!
+## License:
+No license, yet! If you have any questions, email me at: vfrances.ww@gmail.com
 
-Test: It will replace all numbers including the digit 1 in an array with "Beep!"
+## Github page link: 
+Check it out! https://github.com/francesvdiaz/roboger-neighborhood
 
-Code:
-Words = ["Beep!"];
-Number = 20
-changeWord(number,words);
-return result
-console.log(result);
-Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, 20
-Passed: Yes!
+*Copyright(c)_1/09/2022_Frances-Ojeda-Diaz_*
 
-Test: It will replace ALL numbers including the digit 2 in an array with "Boop!"
+## Tests done for Test Driven Developement (TDD)
+#### This is a strategy used to build my program in the most straight forward and clean way.
 
-Code:
-Words = ["Boop!"];
-Number = 20
-changeWord(number,words);
-return result
-console.log(result);
-Output Expected: 0, beep!, boop!, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, boop!
+## Describe countNumbers(number)
 
-Test: It will replace ALL numbers including the digit 3 in an array with "Won't you be my neighbor?"
+### Test: It will count up to a number
 
-Code:
-Words = ["Wont you be my neighbor?"];
-Number = 20
-changeWord(number,words);
-return result
-console.log(result);
-Output Expected: 0, beep!, boop!, won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, won't you be my neighbor?, beep!, beep!, beep!, beep!, beep!, beep!, boop!
+### Code: 
+### number= 10
+### changeNumber(number);
+### return result
+### console.log(result);
 
-Describe: reverseArray
-Test: It will do the same as countNumbers, but decrease/reverse instead
-Number = 30
-reverseArray(number)
-Number = 30
-let result = [];
-result.unshift(i);
-return results;
-console.log(result);
-Output Expected: won't you be my neighbor?, boop!, boop!, boop!, boop!, boop!, boop!, won't you be my neighbor?, boop!, boop!, boop!, beep!, beep!, beep!, beep!, beep!, beep!, won't you be my neighbor?, boop!, beep!, beep!, 9, 8, 7, 6, 5, 4, won't you be my neighbor?, boop!, beep!, 0
-Passed:YES!
+### Output Expected: 0,1,2,3,4,5,6,7,8,9,10;
+### Passed?: Yes !
+
+
+## Describe changeNumbers(number,words)
+
+### Test: It will replace the number 1 in an array with "Beep!"
+
+### Code:
+### Words = ["Beep!"];
+### Number = 10
+### changeWord(number,words);
+### return result
+### console.log(result);
+### Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9,10
+### Passed: Yes!
+
+### Test: It will replace all numbers including the digit 1 in an array with "Beep!"
+
+### Code:
+### Words = ["Beep!"];
+### Number = 20
+### changeWord(number,words);
+### return result
+### console.log(result);
+### Output Expected: 0, beep!, 2, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, 20
+### Passed: Yes!
+
+### Test: It will replace ALL numbers including the digit 2 in an array with "Boop!"
+
+### Code:
+### Words = ["Boop!"];
+### Number = 20
+### changeWord(number,words);
+### return result
+### console.log(result);
+### Output Expected: 0, beep!, boop!, 3, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, beep!, beep!, beep!, beep!, beep!, beep!, beep!, boop!
+
+## Test: It will replace ALL numbers including the digit 3 in an array with "Won't you be my neighbor?"
+
+### Code:
+### Words = ["Wont you be my neighbor?"];
+### Number = 20
+### changeWord(number,words);
+### return result
+### console.log(result);
+### Output Expected: 0, beep!, boop!, won't you be my neighbor?, 4, 5, 6, 7, 8, 9, beep!, beep!, boop!, won't you be my neighbor?, beep!, beep!, beep!, beep!, beep!, beep!, boop!
