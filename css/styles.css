@@ -5,13 +5,13 @@ body {
 
 #button {
   background-color: grey;
-  color:rgb(233, 233, 233)
+  color:rgb(233, 233, 233);
   transition-duration: 0.4s;
 }
 
 #reverseButton {
   background-color: grey;
-  color:rgb(233, 233, 233)
+  color:rgb(233, 233, 233);
   transition-duration: 0.4s;
 }
 
