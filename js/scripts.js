@@ -1,6 +1,5 @@
 
 function countNumbers(number) {
-  const number = document.getElementById("input").value;
   let result = [];
 
     for (i=0;i<=number;i++) {
