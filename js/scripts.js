@@ -34,8 +34,8 @@ function changeWord(number) {
 function handleFormSubmission (event) {
   event.preventDefault();
   number = document.getElementById("input").value;
-  const div1 = document.getElementById("output");
-  div1.innerText = "";
+  const div = document.getElementById("output");
+  div.innerText = "";
   robogerArray = countNumbers(number);
   let beepArray = changeWord(robogerArray);
   const output = document.createElement("p")

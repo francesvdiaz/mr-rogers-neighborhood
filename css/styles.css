@@ -24,3 +24,16 @@ body {
   background-color: #4CAF50; /* Green */
   color: rgb(233, 233, 233);
 }
+
+#home {
+  background-color: #9fcda1;
+  width: 45%;
+  margin: auto;
+  padding:10px;
+}
+
+#output {
+  width: 45%;
+  margin: auto;
+  padding:10px;
+}
