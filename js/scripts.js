@@ -1,6 +1,6 @@
 
 function countNumbers(number) {
-  number = document.getElementById("input").value;
+  const number = document.getElementById("input").value;
   let result = [];
 
     for (i=0;i<=number;i++) {
@@ -33,10 +33,10 @@ function changeWord(number) {
 
 function handleFormSubmission (event) {
   event.preventDefault();
-  number = document.getElementById("input").value;
+  const number = document.getElementById("input").value;
   const div = document.getElementById("output");
   div.innerText = "";
-  robogerArray = countNumbers(number);
+  const robogerArray = countNumbers(number);
   let beepArray = changeWord(robogerArray);
   const output = document.createElement("p")
   div.append(output);
