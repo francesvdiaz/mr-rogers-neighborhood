@@ -20,30 +20,30 @@ function changeWord(number) {
         newString = "won't you be my neighbor?";
       } else if (input.includes("2")) {
         newString = "boop!";
-      } else if (input.includes("1")){
+      } else if (input.includes("1")) {
         newString = "beep!";
       } else {
         newString = input;
       }
     }
     result.push(newString);
-  }
+  };
     return result;
 };
-
 
 function handleFormSubmission (event) {
   event.preventDefault();
   number = document.getElementById("input").value;
+  const div1 = document.getElementById("output");
+  div1.innerText = "";
   robogerArray = countNumbers(number);
   let beepArray = changeWord(robogerArray);
   const output = document.createElement("p")
-  const div = document.getElementById("output");
   div.append(output);
   output.style.backgroundColor = "#d1c8e8";
   output.innerText = beepArray.join(", ");
 };
-
+  
 window.addEventListener("load", function() {
   document.getElementById("button").addEventListener("click",handleFormSubmission);
 }); 
